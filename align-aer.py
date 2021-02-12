@@ -1,4 +1,13 @@
 #
+# Purpose:
+# Calculate the accuracy (prec, rec, F1, AER) of generated word alignments by comparing them with KFTT alignment data
+#
+# KFTT alignment data:
+# http://www.phontron.com/kftt/index.html
+#
+# align.txt:
+# Generated from extract-align.py, giza-mod.py
+#
 # usage:
 # python3 align-aer.py -a align.txt -d Downloads/kftt-alignments
 #

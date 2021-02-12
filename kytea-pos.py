@@ -1,4 +1,7 @@
 #
+# Purpose:
+# Get KyTea POS tagging information of KFTT alignment data to work with raw-aer.py
+#
 # usage:
 # kytea Downloads/kftt-alignments/data/japanese.txt -in tok -tagbound "|" > kytea.txt
 # python3 kytea-pos.py -j kytea.txt > pos.ja.kytea

@@ -1,4 +1,7 @@
 #
+# Purpose:
+# Get word alignment data of KFTT to work with raw-aer.py
+#
 # usage:
 # python3 align-aer.py -d Downloads/kftt-alignments > ref.txt
 #

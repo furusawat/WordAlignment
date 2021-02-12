@@ -1,6 +1,9 @@
 #
+# Purpose:
+# Extract word alignment information from GIZA++ outputs and save it in preferred format
+#
 # usage:
-# python3 giza-mod.py -a giza.A3.final -o out.align
+# python3 giza-mod.py -a giza.A3.final -o align.txt
 #
 
 import argparse

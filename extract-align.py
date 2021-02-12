@@ -1,4 +1,10 @@
 #
+# Purpose:
+# Extract word alignment information from fairseq outputs and save it in preferred format
+#
+# nohup.out:
+# stdout logs from github.com/furusawat/fairseq
+#
 # usage:
 # python3 extract-align.py -i nohup.out -o align.txt
 #

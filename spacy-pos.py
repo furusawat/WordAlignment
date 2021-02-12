@@ -1,4 +1,7 @@
 #
+# Purpose:
+# Get SpaCy POS tagging information of KFTT alignment data to work with raw-aer.py
+#
 # usage:
 # python3 spacy-pos.py -e kftt-alignments/original/english.txt > pos.en
 # python3 spacy-pos.py -j kftt-alignments/original/japanese.txt > pos.ja

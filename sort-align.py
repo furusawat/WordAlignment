@@ -1,4 +1,10 @@
 #
+# Purpose:
+# Extract word alignment data among the certain range of sentence length
+#
+# align.txt:
+# Generated from extract-align.py, giza-mod.py
+#
 # usage:
 # python3 sort-align.py -i align.txt -o align.sorted --lower 50 --upper 100
 #

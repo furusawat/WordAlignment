@@ -1,4 +1,14 @@
 #
+# Purpose:
+# Calculate the accuracy (prec, rec, F1, AER) of generated word alignments by comparing them with KFTT alignment data
+# Also calculate the accuracy in regards of POS tagging information
+#
+# align.txt:
+# Generated from extract-align.py, giza-mod.py
+#
+# ref.txt, pos.en, pos.jp:
+# Generated from get-kyoto.py, kytea-pos.py, spacy-pos.py
+#
 # usage:
 # python3 raw-aer.py -a align.txt -r ref.txt -ep pos.en -jp pos.ja
 #
